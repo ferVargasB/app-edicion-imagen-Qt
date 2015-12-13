@@ -26,7 +26,7 @@ void Aplicacion::on_pushButtonSeleccionarImagen_clicked()
     escenaPrimeraImagen->addPixmap(*primeraImagen);
     ui->graphicsViewPrimeraImagen->setScene(escenaPrimeraImagen);
 
-    obtenerAnchoImagen();
+
 }
 
 void Aplicacion::obtenerAnchoImagen()
